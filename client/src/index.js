@@ -9,4 +9,5 @@ new Modal();
 const ideaForm = new IdeaForm();
 ideaForm.render();
 const ideaList = new IdeaList();
-ideaList.getIdeas();
+
+new IdeaList().getIdeas();
